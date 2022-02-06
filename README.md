@@ -12,3 +12,8 @@ Digital Signal Process:
 [Ch 2 ~ Ch 4](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/BkZUsDt4t),
 [Ch 5 ~ Ch 6](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/SJ_JVLpPY),
 [Ch 9 ~ Ch 10](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/HyZzIGRcF)
+
+Operating System:  
+[Ch 1](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/BkHu9Zr0Y)
+
+[修課心得](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/rka3MPHvY)
