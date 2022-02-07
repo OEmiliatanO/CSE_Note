@@ -16,4 +16,7 @@ Digital Signal Process:
 Operating System:  
 [Ch 1](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/BkHu9Zr0Y)
 
+Computer Organization:  
+[Ch 2~ Ch 3](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/H105CMlRY)
+
 [修課心得](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/rka3MPHvY)
