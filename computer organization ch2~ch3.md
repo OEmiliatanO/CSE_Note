@@ -596,7 +596,7 @@ The loader follows these steps in UNIX systems:
 6. jumps to a start-up routine that copies the parameters into the argument registers and calls the main routine of the program.  
 when the main routine returns, the start-up routine terminates the program with an exit system call.  
 
-__a c sort example__  
+### a c sort example  
 turn the c sort code into MIPS assembly code.
 ```c=
 void swap(int v[], int k)
@@ -952,6 +952,4 @@ ans:
         mul.s $f0, $f0, $f1
         jr $ra
 ```
-
-## processor
 
