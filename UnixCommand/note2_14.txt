@@ -1,0 +1,96 @@
+command: name + optional flags + argument(s)
+
+display file:
+cat
+cat -n  // display file content with lines number
+head	// equals to head -n 10
+head -n
+tail	// equals to tail -n 10
+tail -n
+less
+more
+paste
+tac
+rev
+fold // display with text-width wrapping
+join 
+
+path related:
+cd ~user
+cd -
+pwd
+ls -S (show by size, largest first), -A (list all without . and ..), -l (long format, detail), -t (show by time, newest first), -r (reverse)
+
+file manipulate:
+cp
+mv
+rm -i (interactively ask all file to be remove), -I (same as -i but ask once), -f (force, don't ask), -r (recursively)
+chmod
+ln
+
+Wildcards:
+*	// match any character(s)
+?	// match one arbitrary character
+[] 	// subset
+
+e.g.
+ls *a*html // list all file whose name within 'a' and ended with html
+ls [abc]*  // list all file whose name begins with 'a', 'b' or 'c'
+
+*note that wildcard will expand. e.g. cp a* a* -> cp ab adir ab adir
+*this expansion is lexicographic order dependent
+*try youself in dir EX1.
+
+----
+file detail format example:
+drwxr-xr-x 1 emilia emilia  923 Feb  14 11:31 File
+
+first character is dir or link, then rwx bits.
+next section is link count.
+and then owner, owner group, size, create time, file name
+
+----
+hidden file: .filename
+
+can't be seen by ls, but can be seen by ls -a and -A
+
+----
+create link: ln a b (create b which is a linker pointing to a)
+default is create hard link, i.e., inode is the same.
+
+-s (create soft link. i.e. inode isn't the same.)
+note that inode can be viewed by "ls -i filename".
+
+----
+chmod
+needless to say.
+
+----
+find . -name filename
+find "filename" in this dir recursively.
+filename can be regular expression.
+
+----
+diff origin new
+-yWqc
+
+*try in dir EX2
+ 
+----
+fgrep filename
+-n (which line), --color (highlight), -w (must match whole word)
+1. find which file(s) contain that word.
+2. where in my file is the word i'm looking for
+
+----
+gzip, gunzip
+
+----
+tar -cvf (pack)
+tar -xvf (unpack)
+
+----
+d2u, u2d (conver DOS file format to UNIX file format, and reverse)
+(LFCR problem)
+
+
