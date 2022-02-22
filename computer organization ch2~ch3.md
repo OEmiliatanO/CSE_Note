@@ -444,8 +444,10 @@ L2:
 
 ### parallelism and synchronization
 to support parallelism, MIPS provide ```ll $rt, offset($rs), sc $rt, offset($rs)```, called _load link_ and _store condition_.  
-Th ese instructions are used in sequence:  
-if the contents of the memory location specified by the load linked are changed before the store conditional to the same address occurs, then the store conditional won't work.  
+
+These instructions are used in sequence:  
+```ll $rt, offset($rs)``` will load the value of the memory from $rs[offset] to $rs, and save the memory position to link register.  
+```sc $rt, offset($rs)``` store $rt into $rs[offset] if the contents of the memory location specified by the load linked isn't changed before the store conditional to the same address occurs. if it is, the store conditional won't work.  
 
 __EXAMPLE:__  
 ```
