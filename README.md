@@ -13,10 +13,14 @@ Digital Signal Process:
 [Ch 5 ~ Ch 6](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/SJ_JVLpPY),
 [Ch 9 ~ Ch 10](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/HyZzIGRcF)
 
-Operating System:  
-[Ch 1](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/BkHu9Zr0Y)
-
 Computer Organization:  
-[Ch 2~ Ch 3](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/H105CMlRY)
+[intro](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/H1VDQCFk9),  
+[Ch 1](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/S1Um7tXeq),  
+[Ch 2~ Ch 3](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/H105CMlRY),  
+[Ch 4](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/Sy395BDg5)
+
+Mircoelectronics:  
+[Ch 2](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/S1rPEj1Gq),  
+[Ch 3](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/BJwW3Irz5)
 
 [修課心得](https://hackmd.io/@yW7HKRexRASTmH3kBDXQpQ/rka3MPHvY)
